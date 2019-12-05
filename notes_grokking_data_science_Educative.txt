@@ -1,0 +1,38 @@
+=> Python fundamentals for data science 
+
+- why Python ?
+    * we like things that are simple and intuitive, it's readable, low in complexity and easy to learn 
+    * use of quick implementations for complex mathy concepts
+    * data in real life is ofentimes raw, unstructured, incomplete and large. Python comes with the promise ok knowing how
+    to handle these issues.
+    * The best thing about using these packages is that they have a minimal learning curve. Once you have a basic understanding of Python,
+     you can very easily import, use, and benefit from all of the packages out there without having to understand 
+     everything is going on under the hood
+
+- Jupyter Notebook: what is and why data scientist love it ?
+    * the story begins with IPython, IPython is an interactive command-line terminal for Python.
+    * command-line terminals are not everyone's cup of tea.
+    * in 2011 IPython introduced a new tool named the Notebook (a modern and powerful web interface to Python)
+    * In 2015 the Notebook project was re-branded as the Jupyter Notebook
+    * The Jupyter Notebook is an incredibly powerful and sleek tool for developing and presenting data science projects.
+     It can integrate code and its output into a single document, combining visualizations, narrative text, 
+     mathematical equations, and other rich media.
+    * Its intuitive workflows, ease of use, and zero-cost have made it THE tool at the heart of any data science project.
+    * command "Jupyter Notebook" : run the Jupyter server listening to port 8888 at localhost
+    * creating a new Jupyter Notebook from the server : 
+        This does three things for you:
+            1/. It creates a new Notebook file called Untitled.ipynb in your workspace.
+            2/. It starts a Jupyter Python kernel to run this notebook.
+            3/. It opens the newly created notebook in a new tab.
+
+- NumPy : some useful informations
+    * we can create a 3D arrays (axis 0, 1, 2)
+    * each array has the following attributes: 
+        ¤ ndim : number of dimensions
+        ¤ shape : size of each dimension
+        ¤ size : size total of the array
+        ¤ nbytes : the total sizz in bytes of the array
+    * indexing in Python starts at 0 !! to index we use square brackets
+        ¤ we can index from the last of the array ! by a negative indexing {example : arr[-1] the last value of arr}
+        ¤ for multidimensional we can use comma-separated {example : arr[2][-1] the last element in the third row}
+        
