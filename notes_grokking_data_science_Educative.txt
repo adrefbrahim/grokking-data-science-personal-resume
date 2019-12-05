@@ -33,6 +33,10 @@
         ¤ size : size total of the array
         ¤ nbytes : the total sizz in bytes of the array
     * indexing in Python starts at 0 !! to index we use square brackets
-        ¤ we can index from the last of the array ! by a negative indexing {example : arr[-1] the last value of arr}
+        ¤ we can index from the last of the array ! by a negative indice {example : arr[-1] the last value of arr}
         ¤ for multidimensional we can use comma-separated {example : arr[2][-1] the last element in the third row}
-        
+    * array slicing : is a way to access subarrays, i.e., accessing multiple or a range of elements from an array instead of individual items.
+        ¤ we need to use square-brackets and the slice notation ":", {arr[start:stop:step], default values : start=0, stop=size of dimension and step=1}
+        ¤ to reverse an array : {arr[::-1]}
+        ¤ {arr[:3, ::2] 2D array} : 3 rows, and all columns with step = 2 
+        ¤ 
